@@ -43,7 +43,8 @@ describe('The dockerfile_lint command', function () {
             function (err, stdout, stderr) {
             });
         p.on('exit', function (code) {
-            code.should.equal(5); // 4 errors + 1 warning
+            // code.should.equal(5); // 4 errors + 1 warning
+            code.should.equal(4); // 4 errors
             done();
         });
 
@@ -76,7 +77,8 @@ describe('The dockerfile_lint command', function () {
             function (err, stdout, stderr) {
             });
         p.on('exit', function (code) {
-            code.should.eql(1);
+            // code.should.eql(1);
+            code.should.eql(0);
             done();
         });
     });

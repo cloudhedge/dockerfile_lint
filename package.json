@@ -26,15 +26,15 @@
   },
   "dependencies": {
     "commander": "~2.9.0",
-    "dockerode": "^2.2.9",
+    "dockerode": "3.3.5",
     "js-yaml": "~3.13.1",
     "junit-report-builder": "^2.1.0",
-    "lodash": "^2.4.2",
+    "lodash": "^4.17.21",
     "winston": "^2.4.5"
   },
   "devDependencies": {
     "fast-xml-parser": "^3.17.4",
-    "mocha": "~2.0.1",
+    "mocha": "^10.2.0",
     "pre-commit": "^1.1.2",
     "should": "~4.1.0"
   }
